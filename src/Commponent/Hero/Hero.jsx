@@ -8,7 +8,7 @@ export default function Hero() {
     return (
         <section>
             <div className='Container grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative  '>
-                <div className='flex items-center justify-center w-[1280px] py-14 md:py-0 relative z-10'>
+                <div className='flex items-center justify-center lg:w-[1280px] py-14 md:py-0  relative z-10'>
                     <div className='text-center md:text-left space-y-5  lg:max-w-[400px]'>
                         <motion.h1
                         variants={FadeRight(0.6)}
