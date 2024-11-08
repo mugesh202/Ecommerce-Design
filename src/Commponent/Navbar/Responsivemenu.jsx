@@ -1,6 +1,5 @@
 import React from 'react'
-import {motion, AnimatePresence} from "framer-motion";
-import { div } from 'framer-motion/client';
+import {motion, AnimatePresence} from "framer-motion"
 
 export default function Responsivemenu({open}) {
   return (
